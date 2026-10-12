@@ -34,10 +34,10 @@
       espn: { sport: 'football', league: 'college-football', id: '62' }, season: { kind: 'espn' }, form: { kind: 'espn' },
       logo: UH_LOGO, schedule: 'https://hawaiiathletics.com/sports/football/schedule',
       club: 'Hawaii Rainbow Warriors Football', opens: 'late August', wiki: { title: 'Hawaii Rainbow Warriors football', startYear: true } },
-    // strip: false while ESPN's plain call answers with an empty preseason (the
+    // strip: false was set 2026-10-11 (lifted the same night: schedules.mjs now merges the regular season for college basketball) while ESPN's plain call answers with an empty preseason (the
     // shared adapter asks for the regular season by name only for the NBA) —
     // a filter row, no Teams tab; drop the flag once the season begins in November
-    { slug: 'basketball', label: 'Warriors Basketball', re: /rainbow warriors mens basketball|rainbow warriors basketball/i, sport: 'basketball', venue: 'Stan Sheriff Center', colors: ['#024731', '#000000'], strip: false,
+    { slug: 'basketball', label: 'Warriors Basketball', re: /rainbow warriors mens basketball|rainbow warriors basketball/i, sport: 'basketball', venue: 'Stan Sheriff Center', colors: ['#024731', '#000000'],
       espn: { sport: 'basketball', league: 'mens-college-basketball', id: '62' }, season: { kind: 'espn' }, form: { kind: 'espn' },
       logo: UH_LOGO, schedule: 'https://hawaiiathletics.com/sports/mens-basketball/schedule',
       club: 'Hawaii Rainbow Warriors Mens Basketball', opens: 'early November', wiki: { title: "Hawaii Rainbow Warriors men's basketball", startYear: true } },

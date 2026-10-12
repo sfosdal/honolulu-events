@@ -1,0 +1,22 @@
+{
+  "name": "Honolulu Events",
+  "short_name": "Honolulu Events",
+  "description": "What's on in Honolulu — the Blaisdell Center, the Waikiki Shell, the Stan Sheriff Center, the Hawaii Theatre and the music rooms, with the Rainbow Warriors' seasons.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141a20",
+  "theme_color": "#141a20",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

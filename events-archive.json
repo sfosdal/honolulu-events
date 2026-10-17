@@ -55,6 +55,30 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/the-motet-plays-jamiroquai-blue-note-hawaii-tickets/14261154",
    "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Josh Tatofi",
+   "date": "2026-10-16",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/josh-tatofi-blue-note-hawaii-tickets/14001404",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "WWE Hawaii Live Tour 2026",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/wwe-hawaii-live-tour-2026-honolulu-hawaii-10-16-2026/event/0A0064F1C204B3E6",
+   "type": "sports"
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "JoAnn Conducts Beethoven's Triple",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/joann-conducts-beethovens-triple-honolulu-hawaii-10-16-2026/event/0A00650606F06CA7",
+   "type": "arts"
   }
  ]
 }

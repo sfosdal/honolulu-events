@@ -131,6 +131,36 @@
    "time": "21:00:00",
    "url": "https://hbsocialclub.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "OnoFest & Fall Expo - SUNDAY",
+   "date": "2026-10-18",
+   "time": "10:00:00",
+   "url": "https://www.ticketmaster.com/onofest-fall-expo-sunday-honolulu-hawaii-10-18-2026/event/0A0065250C4ABCB4"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Witch Perfect",
+   "date": "2026-10-18",
+   "time": "12:30:00",
+   "url": "https://www.ticketweb.com/event/witch-perfect-blue-note-hawaii-tickets/14255414"
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "Lea Salonga in Concert",
+   "date": "2026-10-18",
+   "time": "16:00:00",
+   "url": "https://www.ticketmaster.com/lea-salonga-in-concert-honolulu-hawaii-10-18-2026/event/0A006506082D6FF4",
+   "type": "arts"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "The Frankie Moreno Trio",
+   "date": "2026-10-18",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/the-frankie-moreno-trio-blue-note-hawaii-tickets/14985323",
+   "type": "concert"
   }
  ]
 }

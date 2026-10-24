@@ -184,6 +184,34 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/justin-kawika-young-blue-note-hawaii-tickets/14860313",
    "type": "concert"
+  },
+  {
+   "venue": "Waikiki Shell",
+   "title": "Steel Pulse - Reggae Against Racism Tour",
+   "date": "2026-10-23",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/steel-pulse-reggae-against-racism-tour-honolulu-hawaii-10-23-2026/event/0A0064EA50A01A7A",
+   "type": "concert"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Womens Volleyball vs. UNLV Rebels Womens Volleyball",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Rick Springfield",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/rick-springfield-blue-note-hawaii-tickets/14335944",
+   "type": "concert"
   }
  ]
 }

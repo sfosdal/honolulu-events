@@ -212,6 +212,29 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/rick-springfield-blue-note-hawaii-tickets/14335944",
    "type": "concert"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Womens Volleyball vs. UNLV Rebels Womens Volleyball",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Rick Springfield",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/rick-springfield-blue-note-hawaii-tickets/14294504",
+   "type": "concert"
+  },
+  {
+   "venue": "The Republik",
+   "title": "Grief Sucks: A One Man Show By KevOnStage",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "https://www.eventim.us/event/KEVONSTAGE/700059",
+   "type": "arts"
   }
  ]
 }

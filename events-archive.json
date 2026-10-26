@@ -1,6 +1,150 @@
 {
  "events": [
   {
+   "venue": "Royal Hawaiian Center",
+   "title": "Hula Lessons",
+   "date": "2026-10-01",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/hula-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Keiki Hula Lessons",
+   "date": "2026-10-01",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/keiki-hula-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Lei Making Lessons",
+   "date": "2026-10-02",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/lei-making-lesson-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Steel guitar PERFORMANCE",
+   "date": "2026-10-02",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/steel-gutiar-performance-57bxl",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "HŌLEI Music Performance",
+   "date": "2026-10-02",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/holei-trio-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Hula Kahiko Performance",
+   "date": "2026-10-03",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/hula-kahiko-july",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-10-04",
+   "time": "07:30",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-10-04",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "ʻUkulele Lessons",
+   "date": "2026-10-05",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/ukulele-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Kawika Trask Trio Performance",
+   "date": "2026-10-06",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/the-kawika-trask-trio-july",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Under the Sea with the Exploration Vessel Nautilus",
+   "date": "2026-10-07",
+   "time": "02:45",
+   "url": "https://www.bishopmuseum.org/calendar/under-the-sea-with-the-exploration-vessel-nautilus/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "PUʻUHONUA Trio Performance",
+   "date": "2026-10-07",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/puuhonua-performances-july",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Museum After Hours",
+   "date": "2026-10-09",
+   "time": "07:00",
+   "url": "https://www.bishopmuseum.org/calendar/museum-after-hours-october-9-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Under the Sea with the Exploration Vessel Nautilus",
+   "date": "2026-10-09",
+   "time": "07:45",
+   "url": "https://www.bishopmuseum.org/calendar/under-the-sea-with-the-exploration-vessel-nautilus-october-9-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Kanikapila ma Kaiwiʻula",
+   "date": "2026-10-10",
+   "time": "00:00",
+   "url": "https://www.bishopmuseum.org/calendar/kanikapila-ma-kaiwi%ca%bbula/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Shells, Wings & Wonder",
+   "date": "2026-10-10",
+   "time": "00:00",
+   "url": "https://www.bishopmuseum.org/calendar/shells-wings-wonder-october-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-10-11",
+   "time": "07:30",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-10-11",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
    "venue": "Blue Note Hawaii",
    "title": "Augustana",
    "date": "2026-10-11",
@@ -41,6 +185,14 @@
    "type": "concert"
   },
   {
+   "venue": "Royal Hawaiian Center",
+   "title": "Fall dining Gift With Purchase",
+   "date": "2026-10-15",
+   "time": "11:00",
+   "url": "https://www.royalhawaiiancenter.com/events/fall-gift-with-purchase-2026",
+   "type": "community"
+  },
+  {
    "venue": "Blue Note Hawaii",
    "title": "The Motet Plays Jamiroquai",
    "date": "2026-10-15",
@@ -55,6 +207,14 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/the-motet-plays-jamiroquai-blue-note-hawaii-tickets/14261154",
    "type": "concert"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "The Stars Tonight",
+   "date": "2026-10-16",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/the-stars-tonight-2026-winter/",
+   "type": "community"
   },
   {
    "venue": "Blue Note Hawaii",
@@ -125,7 +285,7 @@
    "type": "arts"
   },
   {
-   "venue": "Hawaiian Brian's",
+   "venue": "HB Social Club",
    "title": "Crystal Method (18+)",
    "date": "2026-10-17",
    "time": "21:00:00",
@@ -155,6 +315,14 @@
    "type": "arts"
   },
   {
+   "venue": "Royal Hawaiian Center",
+   "title": "Rooftop Stargazing",
+   "date": "2026-10-18",
+   "time": "18:30",
+   "url": "https://www.royalhawaiiancenter.com/events/rooftop-stargazing-2026",
+   "type": "community"
+  },
+  {
    "venue": "Blue Note Hawaii",
    "title": "The Frankie Moreno Trio",
    "date": "2026-10-18",
@@ -170,12 +338,28 @@
    "url": "https://www.ticketweb.com/event/local-comedy-showcase-blue-note-hawaii-tickets/14301334"
   },
   {
+   "venue": "Royal Hawaiian Center",
+   "title": "Lauhala Weaving Lessons",
+   "date": "2026-10-21",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/lauhala-weaving-lessons-july",
+   "type": "community"
+  },
+  {
    "venue": "Blue Note Hawaii",
    "title": "Red Nova",
    "date": "2026-10-21",
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/red-nova-blue-note-hawaii-tickets/15033483",
    "type": "concert"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Maʻa: Establishing Our Pilina to Kanaloa",
+   "date": "2026-10-22",
+   "time": "08:00",
+   "url": "https://www.bishopmuseum.org/calendar/ma%ca%bba-establishing-our-pilina-to-kanaloa/",
+   "type": "community"
   },
   {
    "venue": "Blue Note Hawaii",
@@ -214,6 +398,14 @@
    "type": "concert"
   },
   {
+   "venue": "Bishop Museum",
+   "title": "Behind the Scenes Native Garden Tour",
+   "date": "2026-10-24",
+   "time": "00:00",
+   "url": "https://www.bishopmuseum.org/calendar/behind-the-scenes-native-garden-tour/",
+   "type": "community"
+  },
+  {
    "venue": "Stan Sheriff Center",
    "title": "Hawaii Rainbow Warriors Womens Volleyball vs. UNLV Rebels Womens Volleyball",
    "date": "2026-10-24",
@@ -235,6 +427,62 @@
    "time": "19:30:00",
    "url": "https://www.eventim.us/event/KEVONSTAGE/700059",
    "type": "arts"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "CENTER-WIDE TRICK-OR-TREATING",
+   "date": "2026-10-25",
+   "time": "12:00",
+   "url": "https://www.royalhawaiiancenter.com/events/center-wide-trick-or-treating-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Exhibition on Screen: James McNeill Whistler",
+   "date": "2026-10-25",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/exhibition-on-screen-james-mcneill-whistler-lzx3",
+   "type": "arts"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Halloween Keiki Costume Contest",
+   "date": "2026-10-25",
+   "time": "14:00",
+   "url": "https://www.royalhawaiiancenter.com/events/halloween-keiki-costume-contest-waikiki-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Mens Basketball vs. Hawaii Pacific Sharks Mens Basketball",
+   "date": "2026-10-25",
+   "time": "17:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "ROGUES",
+   "date": "2026-10-25",
+   "time": "19:00",
+   "url": "https://hbsocialclub.com/event/rogues/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Rick Springfield",
+   "date": "2026-10-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/rick-springfield-blue-note-hawaii-tickets/14294514",
+   "type": "concert"
+  },
+  {
+   "venue": "Waimea Valley",
+   "title": "October Moonwalk",
+   "date": "2026-10-25",
+   "time": "20:00",
+   "url": "https://www.waimeavalley.net/events/moonwalk-oct",
+   "type": "community"
   }
  ]
 }

@@ -367,10 +367,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'Hawaii', // the board drops it from the programs' names ("Hawaii Rainbow Warriors Football" → Rainbow Warriors Football)
-    presetDefault: 'Every room — the Blaisdell, the Shell, the university grounds, the theatres, the museums, the palace and the music rooms, Kāneʻohe and the North Shore too — every team and type',
+    presetDefault: 'Every venue — the Blaisdell, the Shell, the university grounds, the theatres, the museums, the palace and the music venues, Kāneʻohe and the North Shore too — every team and type',
     presetNeighborhood: 'Honolulu proper — without Kāneʻohe and the North Shore',
     presetBig: 'Only the places that hold 2,000 or more — the Blaisdell, the Shell, the university grounds, the Bishop Museum lawn and the open-air grounds',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Honolulu proper — without Kāneʻohe and the North Shore.', big: 'Showing the big rooms only — the Blaisdell, the Shell, the university grounds and the open-air grounds.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Honolulu proper — without Kāneʻohe and the North Shore.', big: 'Showing the big venues only — the Blaisdell, the Shell, the university grounds and the open-air grounds.' },
   };
 
   // City-wide feeds (scripts/feeds.mjs), folded onto the rooms by alias:

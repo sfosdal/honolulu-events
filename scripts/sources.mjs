@@ -102,8 +102,10 @@ export function isChurch(e) { if (CHURCH_EXEMPT.includes(e.venue)) return false;
 // misses them. A candidate is dropped when an existing event sits at the
 // same venue, date and clock time; untimed events never clash.
 export function dropTimeClashes(candidates, existing) {
-  const taken = new Set(existing.filter((e) => e.time).map((e) => `${e.venue}|${e.date}|${e.time}`));
-  return candidates.filter((e) => !e.time || !taken.has(`${e.venue}|${e.date}|${e.time}`));
+  // clocks compared to the minute: Ticketmaster writes 19:30:00, the feeds 19:30 (Bend's Tower, 2026-10-21)
+  const at = (e) => `${e.venue}|${e.date}|${String(e.time).slice(0, 5)}`;
+  const taken = new Set(existing.filter((e) => e.time).map(at));
+  return candidates.filter((e) => !e.time || !taken.has(at(e)));
 }
 
 /**

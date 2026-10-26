@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Aggregates upcoming events around Honolulu into site/events.json and
+ * Aggregates upcoming events around Honolulu, Oʻahu into site/events.json and
  * site/events.ics. Runs in CI (see .github/workflows/events.yml) and locally
  * for preview. The pipeline is lqa-events' (scripts/*.mjs are its files,
  * byte for byte); only the sources below and site/city.js are Honolulu's.
@@ -8,20 +8,22 @@
  * Each source returns [{ venue, title, date, time, url }]. Ticketmaster needs
  * a free Discovery API key in env TICKETMASTER_API_KEY (repo secret of the
  * same name); with no key it's skipped. Every room is read by its Ticketmaster
- * venue id (city.js `tm`); there is no city sweep — a Waikiki hotel alone
- * lists 579 Cirque du Soleil performances. Thirteen here.events builds share
- * the one key, so every Ticketmaster call is paced (tmFetch): at least 1.5 s
- * apart, and a 429 waits 8 s and tries again, up to six times. The teams'
- * seasons come from ESPN (scripts/schedules.mjs).
+ * venue id (city.js `tm`); there is no city sweep, as in Chicago — the
+ * Outrigger Waikiki Beachcomber alone lists 579 Cirque du Soleil performances,
+ * which would bury everything else — so the rooms are read one by one, a
+ * second apart (the key is shared with the sister cities' builds). The rooms'
+ * own calendars come through scripts/feeds.mjs (city.js `feed` / `feeds`).
+ * The Rainbow Warriors' seasons come from ESPN (scripts/schedules.mjs).
  */
 import { writeFileSync, readFileSync } from 'node:fs';
 import { buildIcs } from './ics.mjs';
-import { dropTimeClashes, isChurch } from './sources.mjs';
+import { isChurch } from './sources.mjs';
 import { mergeWithArchive, unionArchives, eventKey } from './merge.mjs';
 import { fixLinks } from './links.mjs';
 import { calmTitle, isNotice } from './titles.mjs';
 import { applySchedules } from './schedules.mjs';
 import { slugify, BADGE_FEEDS, TEAMS, CITY } from './badges.mjs';
+import { feedSources, emptyListGate } from './feeds.mjs';
 
 const JSON_OUT = new URL('../site/events.json', import.meta.url);
 const ICS_OUT = new URL('../site/events.ics', import.meta.url);
@@ -85,24 +87,25 @@ function keepPrimary(rows) {
   const primaryDates = new Set(rows.filter((e) => !isResale(e)).map((e) => e.dates?.start?.localDate));
   return rows.filter((e) => !isResale(e) || !primaryDates.has(e.dates?.start?.localDate));
 }
-// One Ticketmaster call at a time across every room, 1.5 s apart (thirteen
-// builds share the key); a 429 waits 8 s and tries again, up to six times.
+// One Ticketmaster call at a time, a second apart, and a wait of eight
+// seconds on a 429 (the key is shared with the sister cities' builds).
+let tmLast = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-let tmGate = Promise.resolve();
+let tmQueue = Promise.resolve();
 function tmFetch(url) {
-  const turn = tmGate.then(async () => {
-    let res;
-    for (let tries = 0; ; tries++) {
-      res = await fetch(url);
-      if (res.status !== 429 || tries >= 6) break;
-      console.warn(`Ticketmaster 429 — waiting 8 s (try ${tries + 1} of 6)`);
+  const run = async () => {
+    for (let attempt = 0; ; attempt++) {
+      const wait = tmLast + 1000 - Date.now();
+      if (wait > 0) await sleep(wait);
+      tmLast = Date.now();
+      const res = await fetch(url);
+      if (res.status !== 429 || attempt >= 5) return res;
       await sleep(8000);
     }
-    await sleep(1500);
-    return res;
-  });
-  tmGate = turn.catch(() => {});
-  return turn;
+  };
+  const p = tmQueue.then(run, run);
+  tmQueue = p.catch(() => {});
+  return p;
 }
 async function tmPages(params, label) {
   const key = process.env.TICKETMASTER_API_KEY;
@@ -126,17 +129,41 @@ async function ticketmasterVenue({ venueId, venueMatch, label, fallbackUrl, excl
     .filter((e) => !exclude || !exclude.test(e.name || ''));
   return keepPrimary(rows).map((e) => tmEvent(e, label, fallbackUrl));
 }
-const ticketmasterRooms = Object.entries(CITY.venues).filter(([, v]) => v.tm)
-  .map(([label, v]) => () => ticketmasterVenue({ venueId: v.tm.id, venueMatch: v.tm.match, label, fallbackUrl: v.tm.fallbackUrl, exclude: v.tm.exclude }));
-const sources = [...ticketmasterRooms];
-// Secondary sources re-list shows the primaries carry under other titles;
-// anything at an already-taken venue/date/time is dropped. None yet.
-const secondary = [];
+const tmRoom = ([label, v]) => () => ticketmasterVenue({ venueId: v.tm.id, venueMatch: v.tm.match, label, fallbackUrl: v.tm.fallbackUrl, exclude: v.tm.exclude });
+const ticketmasterRooms = Object.entries(CITY.venues).filter(([, v]) => v.tm && !v.tm.secondary).map(tmRoom);
+// Rooms whose own calendar is the voice of record (city.js tm.secondary): Ticketmaster fills only
+// the dates that calendar lacks
+const ticketmasterSecond = Object.entries(CITY.venues).filter(([, v]) => v.tm && v.tm.secondary).map(tmRoom);
+
+// Rooms with their own calendar (city.js `feed`: the Palace's Events Calendar, ʻImiloa's Squarespace
+// collection, the park's NPS listing, Honokaʻa's Eventbrite links) and the Vulcans' season iCal (city.js
+// HTML entities in feed titles, decoded before the shared Title Case pass
+const unent = (t) => String(t || '').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d))).replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#?039;|&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+
+// A room's own listing can also be the SECONDARY voice (city.js `feed.secondary`): the Hawaii
+// Theatre's grid prints dates without clocks, so Ticketmaster's timed rows lead and the grid fills
+// the dates Ticketmaster lacks. feeds.mjs reads one city object, so the venues are split in two.
+const splitVenues = (keep) => Object.fromEntries(Object.entries(CITY.venues).filter(([, v]) => keep(v)));
+const feedsFirst = feedSources({ ...CITY, venues: splitVenues((v) => !v.feed?.secondary) }, BROWSER_UA);
+const feedsSecond = feedSources({ ...CITY, venues: splitVenues((v) => v.feed?.secondary), feeds: [] }, BROWSER_UA);
+// The Blaisdell's calendar leaves the venue blank on some Concert Hall concerts (America, Elf in
+// Concert, the box-office notices) — every one of them is Concert Hall by category, so a blank venue
+// on a Blaisdell row means the Concert Hall; the notices go by title (city.js `drop`).
+const blaisdellBlank = (rows) => rows.map((e) => (!e.venue && /blaisdellcenter\.com/.test(e.url || '') ? { ...e, venue: 'Blaisdell Concert Hall' } : e));
+// A schema.org listing (the Bishop Museum, Windward CC) names no type; such a row takes its room's
+const roomType = (rows) => rows.map((e) => (e.type || !CITY.venues[e.venue] ? e : { ...e, type: CITY.venues[e.venue].type }));
+const sources = [...ticketmasterRooms, ...feedsFirst.map((fn) => async () => blaisdellBlank(await fn()))].map((fn) => async () => roomType(await fn())); // Ticketmaster leaves a row's type blank when it files it under nothing (the Exhibition Hall's fairs)
+// Secondary sources re-list shows the primaries carry under other titles — Ticketmaster's rows for
+// the rooms whose own calendar is read first. Clocks differ between listings, so the secondary rows
+// are dropped by venue and date rather than by the shared dropTimeClashes.
+const secondary = [...ticketmasterSecond, ...feedsSecond];
+const dropDateClashes = (rows, all) => { const taken = new Set(all.map((e) => `${e.venue}|${e.date}`)); return rows.filter((e) => !taken.has(`${e.venue}|${e.date}`)); };
 
 // Venue names as city.js spells them: a venue listed under other spellings
-// (`alias` — "Bankoh Arena at Stan Sheriff Center", "Hawaiian Brian's-HB Social Club")
-// folds to its one name; `groundsVenue`, when a city sets one, takes the
-// rooms city.js doesn't list.
+// (`alias` — "Bankoh Arena at the Stan Sheriff Center", "Hawaii Theatre")
+// folds to its one name; Honolulu sets no `groundsVenue`, so a row that
+// still arrives under a name city.js lacks is dropped (and counted) rather
+// than listed under a stray name.
 const CANONICAL_VENUES = new Set(Object.keys(CITY.venues));
 const ALIASES = Object.entries(CITY.venues).filter(([, v]) => v.alias).map(([label, v]) => [label, v.alias]);
 const aliasHit = (s) => { const hit = ALIASES.find(([, re]) => re.test(s || '')); return hit ? hit[0] : null; };
@@ -150,6 +177,8 @@ const normalizeVenue = (e) => {
   if (CITY.groundsVenue && !CANONICAL_VENUES.has(venue)) return { ...e, venue: CITY.groundsVenue };
   return venue === e.venue ? e : { ...e, venue };
 };
+const strays = new Map();
+const knownVenue = (e) => { if (CANONICAL_VENUES.has(e.venue)) return true; strays.set(e.venue, (strays.get(e.venue) || 0) + 1); return false; };
 
 // Church events never make the listing (Steve, 2026-10-11, for Everett;
 // the same here), judged on the
@@ -160,14 +189,19 @@ const noChurch = (rows) => rows.filter((e) => { if (isChurch(e)) { churchDropped
 
 let all = [];
 for (const src of sources) {
-  try { all = all.concat(noChurch(await src()).map(normalizeVenue)); }
+  try { all = all.concat(noChurch(await src()).map(normalizeVenue).filter(knownVenue)); }
   catch (err) { console.error('Source failed:', err.message); }
 }
 for (const src of secondary) {
-  try { all = all.concat(dropTimeClashes(noChurch(await src()).map(normalizeVenue), all)); }
+  try { all = all.concat(dropDateClashes(noChurch(await src()).map(normalizeVenue).filter(knownVenue), all)); }
   catch (err) { console.error('Source failed:', err.message); }
 }
 if (churchDropped) console.log(`Church events dropped: ${churchDropped}`);
+// A listing that prints a show twice — once with a clock, once without (the Palace's all-day film
+// rows beside its timed ones): when a timed row shares a venue, link and date with an untimed one,
+// the untimed one goes
+{ const timed = new Set(all.filter((e) => e.time).map((e) => `${e.venue}|${e.url}|${e.date}`)); all = all.filter((e) => e.time || !timed.has(`${e.venue}|${e.url}|${e.date}`)); }
+if (strays.size) console.log(`Rows under venues city.js lacks, dropped: ${[...strays].map(([v, n]) => `${v} (${n})`).join(', ')}`);
 
 // window, de-dupe, sort
 const today = new Date().toISOString().slice(0, 10);
@@ -177,8 +211,13 @@ const seen = new Set();
 const fresh = all
   .filter((e) => e.date && e.date >= cutoff && e.date <= horizon)
   .filter((e) => !isNotice(e.title)) // a closure or construction notice is information, not an event
-  .map((e) => ({ ...e, title: calmTitle(e.title) })) // shouted titles come down to Title Case
+  .map((e) => ({ ...e, title: calmTitle(unent(e.title)) })) // shouted titles (the Concert Society's season page) come down to Title Case, entities decoded first
+  .map((e) => (/\s*[-–—]\s*sold out!?\s*$/i.test(e.title) ? { ...e, title: e.title.replace(/\s*[-–—]\s*sold out!?\s*$/i, ''), soldOut: true } : e)) // a "– Sold Out!" title suffix is the tag, not the words
   .filter((e) => { const k = eventKey(e); if (seen.has(k)) return false; seen.add(k); return true; }); // venue|title|date|clock (merge.mjs): a second showing on one day is kept
+
+// the empty-list gate (feeds.mjs): nothing upcoming in this build's own pull means a room was
+// missed in scouting or every source is down — not a fact about the town. ALLOW_EMPTY_LIST=1 overrides.
+if (!emptyListGate(fresh, today, sources.length)) process.exit(1);
 
 // carry past events forward. Two copies of the archive: the live feed and
 // the `archive` branch's file (every past event ever published; the workflow
@@ -188,7 +227,7 @@ const fresh = all
 // longer shrink the record.
 const cleanArchive = (d) => (Array.isArray(d) ? d : (d.events || []))
   .filter((e) => !isChurch(e)) // past church events leave the record too
-  .map(normalizeVenue) // past events published under other spellings fold onto the one name
+  .map(normalizeVenue).filter(knownVenue) // past events published under other spellings fold onto the one name
   .filter((e) => !isNotice(e.title)).map((e) => ({ ...e, title: calmTitle(e.title) })); // the same title hygiene as fresh events, so the merge keys agree
 async function fetchArchive(url, what) {
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -216,26 +255,27 @@ if (branchArchive === null) console.error('Archive branch unreadable — buildin
 const archived = unionArchives(liveArchive || [], branchArchive || []);
 console.log(`Archive: ${(liveArchive || []).length} events in the live feed, ${(branchArchive || []).length} on the archive branch, ${archived.length} in the union`);
 
-const merged = mergeWithArchive(fresh, archived, today, cutoff).slice(-MAX_EVENTS);
+const merged = mergeWithArchive(fresh, archived, today, cutoff).slice(-MAX_EVENTS)
+  .map((e) => (e.venue === "Hawaiian Brian's" ? { ...e, venue: 'HB Social Club' } : e)); // the room was renamed in 2025; the archive's rows follow it
 
 // League schedules flag floating dates Ticketmaster doesn't know yet, and
 // the full seasons (home and away) feed the site's Teams view
 let seasons = {}, form = {};
 try { ({ teams: seasons, form } = await applySchedules(merged)); } catch (err) { console.error('Schedules step failed:', err.message); }
-// The clubs whose home games have no ticket feed here (city.js `inject`:
-// none in Honolulu yet — the Warriors' and the Wahine's home games are read
-// from Ticketmaster by room) enter the listing from the league's schedule —
+// The clubs whose home games have no ticket feed here (city.js `inject`: the
+// none here — the Vulcans' dates come as listings from their season calendar) enter the listing from the league's schedule —
 // typed sports, the club's ticket page as the link — unless the feed already
 // has that day at that ground
-for (const t of CITY.teams.filter((x) => x.inject)) { // CITY.teams, not badges.mjs's TEAMS, which keeps only slug/label/re
-  for (const g0 of (seasons[t.slug] || []).filter((x) => x.home && x.date >= cutoff)) {
-    // ESPN's placeholder for a game without a kickoff time is midnight Eastern
-    // (04:00Z), which schedules.mjs renders in Hawaii as 6 PM the day before;
-    // a date-TBD game therefore belongs to the next calendar day here
-    const g = g0.tbd && !g0.time ? { ...g0, date: new Date(Date.parse(g0.date + 'T12:00:00Z') + 86400e3).toISOString().slice(0, 10) } : g0;
-    const venue = t.venue; // the club's own room as city.js spells it, so the game de-dupes against the room's Ticketmaster listing
-    const listed = merged.find((e) => e.date === g.date && e.venue === venue);
-merged.push({ venue, title: `${t.inject.name || t.name || t.label} vs ${g.opp.name}`, date: g.date, time: g.time, url: t.inject.url, type: 'sports', ...(g.tbd ? { dateTbd: true } : {}), ...(g.watch ? { watch: g.watch } : {}) });
+// (city.js teams, not badges' TEAMS, which carries only slug/label/re — the
+// loop was a no-op until 2026-10-11; the game takes the club's own ground name)
+for (const t of CITY.teams.filter((x) => x.inject)) {
+  for (const g of (seasons[t.slug] || []).filter((x) => x.home && x.date >= today)) { // from today: a written row is not a record of a past event (the archive keeps only what was listed)
+    const ground = t.inject.venue || t.venue || g.venue;
+    const room = CITY.venues[ground];
+    if (g.venue && room && room.alias && !room.alias.test(g.venue)) continue; // a neutral-site game ESPN flags as home (Creighton v Michigan at T-Mobile Arena, 2026-11-24) stays off the home ground
+    const listed = merged.find((e) => e.date === g.date && (e.venue === ground || e.venue === g.venue));
+    if (listed) { if (!listed.time && g.time && !g.tbd) listed.time = g.time; continue; } // the feed's listing stands; the league's first pitch fills a time it lacks
+    merged.push({ venue: ground, title: `${t.inject.name || t.name || t.label} vs ${g.opp.name}`, date: g.date, time: g.time, url: t.inject.url, type: 'sports', ...(g.tbd ? { dateTbd: true } : {}), ...(g.watch ? { watch: g.watch } : {}) });
   }
 }
 // Ticket availability for the Ticketmaster venues, from a local checker

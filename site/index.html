@@ -27,14 +27,14 @@
   gtag('js', new Date());
   gtag('config', 'G-BTQFXS68HN');
 </script>
-<title>Honolulu Events — the Blaisdell, the Shell, the Stan Sheriff &amp; the music rooms</title>
-<meta name="description" content="What's on in Honolulu — the Blaisdell Center, the Waikiki Shell, the Stan Sheriff Center, the Hawaii Theatre and the music rooms, with the Rainbow Warriors' seasons. Calendar, iCal feed, and embeddable widget.">
+<title>Honolulu Events — the Blaisdell, the Shell, the theatres, the museums &amp; the music rooms</title>
+<meta name="description" content="What's on in Honolulu — the Blaisdell Center, the Waikiki Shell, the Stan Sheriff Center, the Hawaii Theatre, the museums, ʻIolani Palace and the music rooms, with the Rainbow Warriors' seasons. Calendar, iCal feed, and embeddable widget.">
 <!-- the site's own address and what a shared link shows: name, line, and the share card (share.png, 1200×630, scripts/share-card.mjs) -->
 <link rel="canonical" href="https://honolulu.here.events/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Honolulu Events">
 <meta property="og:title" content="Honolulu Events">
-<meta property="og:description" content="What's on in Honolulu — the Blaisdell, the Shell, the university grounds, the theatres and the music rooms, with the Rainbow Warriors' seasons.">
+<meta property="og:description" content="What's on in Honolulu — the Blaisdell, the Shell, the university grounds, the theatres, the museums and the music rooms, with the Rainbow Warriors' seasons.">
 <meta property="og:url" content="https://honolulu.here.events/">
 <meta property="og:image" content="https://honolulu.here.events/share.png">
 <meta property="og:image:width" content="1200">
@@ -109,7 +109,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
   </label>
   <!-- the view switch: the events list | the home teams' seasons, a two-stop pill like the theme's -->
-  <div id="viewToggle" class="theme-toggle view-toggle" role="radiogroup" aria-label="View" data-active="events"><!-- List · Month · Teams (Steve, 2026-09-14; words beside the icons when the bar has room, 2026-10-24): Month is the list with the month calendar; app.js remembers the choice -->
+  <div id="viewToggle" class="theme-toggle view-toggle" role="radiogroup" aria-label="View" data-active="events"><!-- List · Month · Teams · Map (Steve, 2026-09-14; the words and the Map stop 2026-10-24): Month is the list with the month calendar, Map the venues on the ground (local-map.js); app.js remembers the choice -->
     <button id="eventsBtn" type="button" role="radio" aria-checked="true" data-view="events" title="Events">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span class="vt-label">List</span>
     </button>
@@ -118,6 +118,9 @@
     </button>
     <button id="teamsBtn" type="button" role="radio" aria-checked="false" data-view="teams" aria-controls="teamsView" title="Home Teams — season schedules, every game, home and away">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.6 9.5c3 1 5.4 3.6 6.3 7.3M20.4 9.5c-3 1-5.4 3.6-6.3 7.3M12 3v18M3 12h18"/></svg><span class="vt-label">Teams</span>
+    </button>
+    <button id="mapBtn" type="button" role="radio" aria-checked="false" data-view="map" aria-controls="mapView" title="Map — the venues around Honolulu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></svg><span class="vt-label">Map</span>
     </button>
     <button id="filterToggle" class="vt-filter" type="button" aria-expanded="false" aria-controls="filterPanel" title="Filters">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 3H2l8 9.46V19l4 2v-8.54z"/></svg>
@@ -237,11 +240,11 @@
        saying what is hidden. -->
   <div class="fp-cols">
     <div class="fp-group">
-      <h3>Blaisdell, Campus &amp; Theatres<span class="fp-allnone"><button type="button" class="fp-set" data-scope="campus" data-on="1">Show All</button><i>·</i><button type="button" class="fp-set" data-scope="campus" data-on="0">Hide All</button></span></h3>
+      <h3>Honolulu<span class="fp-allnone"><button type="button" class="fp-set" data-scope="campus" data-on="1">Show All</button><i>·</i><button type="button" class="fp-set" data-scope="campus" data-on="0">Hide All</button></span></h3>
       <div id="panelVenues" class="fp-list"><!-- the venue rows, injected by app.js --></div>
     </div>
     <div class="fp-group">
-      <h3>Music Rooms &amp; Neighbor Islands<span class="fp-allnone"><button type="button" class="fp-set" data-scope="town" data-on="1">Show All</button><i>·</i><button type="button" class="fp-set" data-scope="town" data-on="0">Hide All</button></span></h3>
+      <h3>Around Oʻahu<span class="fp-allnone"><button type="button" class="fp-set" data-scope="town" data-on="1">Show All</button><i>·</i><button type="button" class="fp-set" data-scope="town" data-on="0">Hide All</button></span></h3>
       <div id="panelVenuesTown" class="fp-list"><!-- the music rooms across the city and the suburban houses (city.js area: 'town'), injected by app.js --></div>
       <h3>Event Type<span class="fp-allnone"><button type="button" class="fp-set" data-scope="type" data-on="1">Show All</button><i>·</i><button type="button" class="fp-set" data-scope="type" data-on="0">Hide All</button></span></h3>
       <div id="panelBadges" class="fp-list"><!-- the five kinds (city.js TYPES), injected by app.js --></div>
@@ -310,6 +313,22 @@
   </section>
 </section>
 
+<!-- the Map view (Steve, 2026-10-24): the town with a pin on every room,
+     sized by its upcoming events under the filters in force; a tapped pin opens
+     its card. Drawn by local-map.js from local-map.json (OpenStreetMap shoreline and roads,
+     built once by scripts/build-local-map.mjs) — no tiles, nothing fetched off-site -->
+<section id="mapView" class="local-map" hidden aria-label="Map of the venues">
+  <div class="lm-frame">
+    <svg id="lmSvg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Honolulu with the venues marked"></svg>
+    <div class="lm-zoom" aria-label="Zoom">
+      <button type="button" data-z="in" title="Zoom in" aria-label="Zoom in">+</button>
+      <button type="button" data-z="out" title="Zoom out" aria-label="Zoom out">−</button>
+      <button type="button" data-z="fit" title="The whole shore" aria-label="The whole shore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg></button>
+    </div>
+  </div>
+  <p class="lm-caption" id="lmCaption"><span></span></p>
+</section>
+
 <!-- the Teams view: in place of the agenda while the Teams chip is on. A
      strip of the home teams, a bar naming a picked opponent, then the season
      in the agenda's own day/card markup (app.js renderTeams) -->
@@ -371,15 +390,19 @@
       <div class="share-cols">
         <div>
           <h3>Ticketing feeds</h3>
-          <p>Ticketmaster, room by room — the Blaisdell's arena, concert hall and exhibition hall, the Stan Sheriff Center, the Ching Athletics Complex, the Waikiki Shell, the Hawaii Theatre, the Republik, Blue Note Hawaii, Hawaiian Brian's, and the Maui Arts &amp; Cultural Center and Kahilu Theatre on the neighbor islands. Church events are left out.</p>
+          <p>Ticketmaster, room by room — the Stan Sheriff Center, the Ching Athletics Complex, the Hawaii Theatre, Diamond Head Theatre, the Republik, Blue Note Hawaii and HB Social Club; for the Blaisdell's three rooms and the Waikiki Shell it fills only the dates the Center's own calendar lacks. Church events are left out.</p>
         </div>
         <div>
           <h3>Venue calendars</h3>
-          <p>None yet — the rooms whose shows Ticketmaster never lists (the Hawaii Symphony's own box office, Kumu Kahua Theatre, Manoa Valley Theatre, the Honolulu Museum of Art) are the next thing to add.</p>
+          <p>The rooms' own calendars, read at build time: the Blaisdell Center's Events Calendar (the symphony, the opera, Ballet Hawaii and the Broadway runs with it), the Hawaii Theatre's grid, Chamber Music Hawaii's season, UH Mānoa Music at Orvis, Windward CC's calendar for Palikū Theatre, the Bishop Museum's and Windward's schema.org listings, the Honolulu Museum of Art's event pages, Kumu Kahua's Eventbrite pages, ʻIolani Palace, the Mission Houses, HB Social Club, Hula's, SALT at Our Kakaʻako, the Royal Hawaiian Center and Waimea Valley. The Republik's site is closed to readers, so Ticketmaster alone speaks for it.</p>
         </div>
         <div>
           <h3>Game dates</h3>
           <p>ESPN for the Rainbow Warriors — football at the Ching Athletics Complex, men’s basketball and the Rainbow Wahine’s volleyball at the Stan Sheriff Center.</p>
+        </div>
+        <div>
+          <h3>The map</h3>
+          <p>The shoreline, the waters and the main roads are from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (© OpenStreetMap contributors, ODbL), drawn here as one file built once — no map tiles, nothing fetched from anywhere else. Venues are placed from their street addresses.</p>
         </div>
         <div>
           <h3>The final word</h3>
@@ -459,5 +482,6 @@
 <script src="cities.js?v=__V__" defer></script> <!-- every city on here.events, for the Other Places sheet (generated in lqa, synced) -->
 <script src="filter.js?v=__V__" defer></script>
 <script src="app.js?v=__V__" defer></script>
+<script src="local-map.js?v=__V__" defer></script> <!-- the Map view (after app.js, which lends it LQAHooks) -->
 </body>
 </html>

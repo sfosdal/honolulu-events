@@ -483,6 +483,22 @@
    "time": "20:00",
    "url": "https://www.waimeavalley.net/events/moonwalk-oct",
    "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "ʻUkulele Lessons",
+   "date": "2026-10-26",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/ukulele-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Mike Lewis Big Band",
+   "date": "2026-10-26",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/mike-lewis-big-band-blue-note-hawaii-tickets/14919103",
+   "type": "concert"
   }
  ]
 }

@@ -13,3 +13,4 @@ site/marks/opp/
 events-archive.json
 # Natural Earth's 10m countries file for scripts/build-local-map.mjs (download once)
 .cache/
+failures.json

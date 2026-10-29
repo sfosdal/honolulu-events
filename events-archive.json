@@ -539,6 +539,38 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/jeff-bernat-blue-note-hawaii-tickets/14958443",
    "type": "concert"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Lauhala Weaving Lessons",
+   "date": "2026-10-28",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/lauhala-weaving-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "vein at KAKAʻAKO: Booze & Bros.",
+   "date": "2026-10-28",
+   "time": "16:30",
+   "url": "https://saltatkakaako.com/event/vein-at-kaka%ca%bbako-booze-bros/2026-10-28/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "PUʻUHONUA Trio Performance",
+   "date": "2026-10-28",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/puuhonua-performances-july",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Jeff Bernat",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/jeff-bernat-blue-note-hawaii-tickets/14958453",
+   "type": "concert"
   }
  ]
 }

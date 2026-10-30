@@ -571,6 +571,46 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/jeff-bernat-blue-note-hawaii-tickets/14958453",
    "type": "concert"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Keiki Hula Lessons",
+   "date": "2026-10-29",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/keiki-hula-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Exhibition on Screen: James McNeill Whistler",
+   "date": "2026-10-29",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/exhibition-on-screen-james-mcneill-whistler-lzx3",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Highway Inn: Live Music Thursdays",
+   "date": "2026-10-29",
+   "time": "17:30",
+   "url": "https://saltatkakaako.com/event/highway-inn-live-music-thursdays/2026-10-29/",
+   "type": "community"
+  },
+  {
+   "venue": "Kumu Kahua Theatre",
+   "title": "Kupua by Haili'ōpua Baker",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "url": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971493305",
+   "type": "arts"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Ka'au Crater Boys - The Second Chapter",
+   "date": "2026-10-29",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/kaau-crater-boys-blue-note-hawaii-tickets/14345434",
+   "type": "concert"
   }
  ]
 }

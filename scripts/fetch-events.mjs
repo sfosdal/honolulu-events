@@ -26,6 +26,7 @@ import { applySchedules } from './schedules.mjs';
 import { slugify, BADGE_FEEDS, TEAMS, CITY } from './badges.mjs';
 import { feedSources, emptyListGate, feedFailedVenues } from './feeds.mjs';
 import { tmFetch, tmFailed, keepFailedVenues } from './tm-fetch.mjs';
+import { stampFestivals } from './festivals.mjs';
 
 const JSON_OUT = new URL('../site/events.json', import.meta.url);
 const ICS_OUT = new URL('../site/events.ics', import.meta.url);
@@ -240,6 +241,7 @@ console.log(`Archive: ${(liveArchive || []).length} events in the live feed, ${(
 // venues whose read failed keep their upcoming rows: Ticketmaster's (tm-fetch.mjs), then a leading own calendar's (feeds.mjs)
 const keptFailed = (archived, fresh, today) => { const tm = keepFailedVenues(archived, fresh, today); return tm.concat(keepFailedVenues(archived, fresh.concat(tm), today, feedFailedVenues, console.error, 'Own calendar')); };
 const merged = mergeWithArchive(fresh.concat(keptFailed(archived, fresh, today)), archived, today, cutoff).slice(-MAX_EVENTS)
+await stampFestivals(merged, { city: CITY.key }); // the festivals Steve approved from the weekly list (scripts/festivals.mjs)
   .map((e) => (e.venue === "Hawaiian Brian's" ? { ...e, venue: 'HB Social Club' } : e)); // the room was renamed in 2025; the archive's rows follow it
 
 // League schedules flag floating dates Ticketmaster doesn't know yet, and

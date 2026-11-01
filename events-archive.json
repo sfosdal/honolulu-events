@@ -713,6 +713,116 @@
    "time": "21:30",
    "url": "https://hbsocialclub.com/event/its-a-2000s-party-halloween-edition/",
    "type": "concert"
+  },
+  {
+   "venue": "Hawaii Theatre Center",
+   "title": "Who’s Bad – Thriller Nights",
+   "date": "2026-10-31",
+   "time": "",
+   "url": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000AFjK1MAL",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Holiday Craft and Gift Fair",
+   "date": "2026-10-31",
+   "time": "10:00",
+   "url": "https://blaisdellcenter.com/event/hawaii-holiday-craft-and-gift-fair/2026-10-31/"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Holiday Craft & Gift Fair - SATURDAY",
+   "date": "2026-10-31",
+   "time": "10:00:00",
+   "url": "https://www.ticketmaster.com/hawaii-holiday-craft-gift-fair-saturday-honolulu-hawaii-10-31-2026/event/0A00655410B98A85"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "GOLDEN: A K-Pop Halloween Kids Party!",
+   "date": "2026-10-31",
+   "time": "12:00:00",
+   "url": "https://www.ticketweb.com/event/golden-a-k-pop-halloween-blue-note-hawaii-tickets/15022033",
+   "type": "concert"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "The Collection in Context: Spirituality & Symbolism",
+   "date": "2026-10-31",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/the-collection-in-context-spirituality-and-symbolism-trgv",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Mārama",
+   "date": "2026-10-31",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/marama-4w9d",
+   "type": "arts"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Hula’s Catamaran",
+   "date": "2026-10-31",
+   "time": "14:00",
+   "url": "https://hulas.com/event/hulas-catamaran-55/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Princess Rave Halloween",
+   "date": "2026-10-31",
+   "time": "15:00:00",
+   "url": "https://www.ticketweb.com/event/princess-rave-halloween-blue-note-hawaii-tickets/15033453",
+   "type": "concert"
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "Outreach – The Land Has Spoken – Tales of Indigenous Horror",
+   "date": "2026-10-31",
+   "time": "16:00",
+   "url": "https://manoa.hawaii.edu/music/event/outreach/",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Pumpkin Pāʻina",
+   "date": "2026-10-31",
+   "time": "17:00",
+   "url": "https://saltatkakaako.com/event/pumpkin-pa%ca%bbina-3/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Tales of Haunted Hawai'i Halloween",
+   "date": "2026-10-31",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/tales-of-haunted-hawaii-halloween-blue-note-hawaii-tickets/14280864",
+   "type": "concert"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "The Rocky Horror Picture Show",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "url": "https://honolulumuseum.org/events/the-rocky-horror-picture-show-rs4p",
+   "type": "arts"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Rocky Horror Hulaween",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://hulas.com/event/hulaween/",
+   "type": "concert"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "5th Annual Twin fin halloween",
+   "date": "2026-10-31",
+   "time": "21:00",
+   "url": "https://hbsocialclub.com/event/5th-annual-twin-fin-halloween/",
+   "type": "concert"
   }
  ]
 }

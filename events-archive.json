@@ -823,6 +823,37 @@
    "time": "21:00",
    "url": "https://hbsocialclub.com/event/5th-annual-twin-fin-halloween/",
    "type": "concert"
+  },
+  {
+   "venue": "Hawaii Theatre Center",
+   "title": "The Last Dive – How Far Would You Go For A Friend?",
+   "date": "2026-11-01",
+   "time": "",
+   "url": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EaBePMAV",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Holiday Craft & Gift Fair - SUNDAY",
+   "date": "2026-11-01",
+   "time": "10:00:00",
+   "url": "https://www.ticketmaster.com/hawaii-holiday-craft-gift-fair-sunday-honolulu-hawaii-11-01-2026/event/0A00655410BD8A92"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Maddie's Secret",
+   "date": "2026-11-01",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/maddie-s-secret-18zj",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "HOT - The Shining",
+   "date": "2026-11-01",
+   "time": "16:00:00",
+   "url": "https://www.ticketmaster.com/hot-the-shining-honolulu-hawaii-11-01-2026/event/0A00652FB48391F5",
+   "type": "arts"
   }
  ]
 }

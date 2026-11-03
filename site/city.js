@@ -432,6 +432,7 @@
     // every room above that carries geo: [lat, lon]. The frame is the whole island; the view opens on Honolulu itself.
     map: {
       kind: 'urban',
+      boundary: { osm: 119231 }, // the city line, always drawn (Steve, 2026-11-02): OpenStreetMap's boundary relation for Honolulu (the urban place, not the whole City and County, which is all of Oʻahu)
       bbox: [21.24, -158.3, 21.73, -157.63], // south, west, north, east — the whole island, Kaʻena Point to Makapuʻu
       home: [21.255, -157.905, 21.335, -157.78], // the view at first: Pearl Harbor's mouth to Diamond Head; the fit button shows the island
       roads: ['motorway', 'trunk', 'primary'],

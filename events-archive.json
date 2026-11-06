@@ -924,6 +924,67 @@
    "time": "19:30",
    "url": "https://saltatkakaako.com/event/pitch-dart-club/2026-11-04/",
    "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Filipiñana",
+   "date": "2026-11-05",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/filipinana-jgvq",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Highway Inn: Live Music Thursdays",
+   "date": "2026-11-05",
+   "time": "17:30",
+   "url": "https://saltatkakaako.com/event/highway-inn-live-music-thursdays/2026-11-05/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "The Wailers",
+   "date": "2026-11-05",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/the-wailers-blue-note-hawaii-tickets/14909503",
+   "type": "concert"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Womens Volleyball vs. Nevada Wolfpack Womens Volleyball",
+   "date": "2026-11-05",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "Rachmaninoff and Copland",
+   "date": "2026-11-05",
+   "time": "19:30",
+   "url": "https://blaisdellcenter.com/event/rachmaninoff-and-copland/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "Rachmaninoff & Copland",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/rachmaninoff-copland-honolulu-hawaii-11-05-2026/event/0A00650608EE718F",
+   "type": "arts"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "The Wailers",
+   "date": "2026-11-05",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/the-wailers-blue-note-hawaii-tickets/14909513",
+   "type": "concert"
   }
  ]
 }

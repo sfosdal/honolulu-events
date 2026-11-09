@@ -1356,6 +1356,74 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/the-wailers-blue-note-hawaii-tickets/14909543",
    "type": "concert"
+  },
+  {
+   "venue": "Palikū Theatre",
+   "title": "Everyday Heroes of Hawaiʻi",
+   "date": "2026-11-08",
+   "time": "05:00",
+   "url": "https://windward.hawaii.edu/events/everyday-heroes-of-hawai%ca%bbi/",
+   "type": "arts"
+  },
+  {
+   "venue": "ʻIolani Palace",
+   "title": "November 8 Kamaʻāina Sunday",
+   "date": "2026-11-08",
+   "time": "09:00",
+   "url": "https://www.iolanipalace.org/event/november-8-kama%ca%bbaina-sunday/?event_date=2026-11-08",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "November Keep It Aloha Card Show",
+   "date": "2026-11-08",
+   "time": "10:00",
+   "url": "https://saltatkakaako.com/event/november-keep-it-aloha-card-show-2/",
+   "type": "community"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "HI Finest Black Friday Makeke 2026",
+   "date": "2026-11-08",
+   "time": "10:00",
+   "url": "https://blaisdellcenter.com/event/hi-finest-black-friday-makeke-2026/2026-11-08/"
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "University of Hawaiʻi Drumline Clinic",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "url": "https://manoa.hawaii.edu/music/event/drumline-clinic/",
+   "type": "concert"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "The Art & Science of Longevity: Creativity and Healthy Aging",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/the-art-and-science-of-longevity-creativity-and-healthy-aging-mbns",
+   "type": "arts"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Mens Basketball vs. UTA Mavericks Mens Basketball",
+   "date": "2026-11-08",
+   "time": "17:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Billy Gardell",
+   "date": "2026-11-08",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/billy-gardell-blue-note-hawaii-tickets/14219304",
+   "type": "arts"
   }
  ]
 }

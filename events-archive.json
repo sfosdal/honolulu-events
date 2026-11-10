@@ -1424,6 +1424,28 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/billy-gardell-blue-note-hawaii-tickets/14219304",
    "type": "arts"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Mens Basketball vs. Portland Pilots Mens Basketball",
+   "date": "2026-11-09",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "dateTbd": true,
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Local Comedy Showcase",
+   "date": "2026-11-09",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/local-comedy-showcase-blue-note-hawaii-tickets/14386534",
+   "type": "concert"
   }
  ]
 }

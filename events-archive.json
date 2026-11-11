@@ -1446,6 +1446,22 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/local-comedy-showcase-blue-note-hawaii-tickets/14386534",
    "type": "concert"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "vein at KAKAʻAKO: Ladies Night",
+   "date": "2026-11-10",
+   "time": "16:30",
+   "url": "https://saltatkakaako.com/event/vein-at-kaka%ca%bbako-ladies-night/2026-11-10/",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Trivia Tuesdays at Village Beer",
+   "date": "2026-11-10",
+   "time": "19:00",
+   "url": "https://saltatkakaako.com/event/trivia-tuesdays-at-village-beer/2026-11-10/",
+   "type": "community"
   }
  ]
 }

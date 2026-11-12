@@ -1462,6 +1462,38 @@
    "time": "19:00",
    "url": "https://saltatkakaako.com/event/trivia-tuesdays-at-village-beer/2026-11-10/",
    "type": "community"
+  },
+  {
+   "venue": "Waimea Valley",
+   "title": "Makahiki Festival",
+   "date": "2026-11-11",
+   "time": "09:00",
+   "url": "https://www.waimeavalley.net/events/makahiki",
+   "type": "community"
+  },
+  {
+   "venue": "Waimea Valley",
+   "title": "Veterans Day",
+   "date": "2026-11-11",
+   "time": "09:00",
+   "url": "https://www.waimeavalley.net/events/veterans-day",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "vein at KAKAʻAKO: Booze & Bros.",
+   "date": "2026-11-11",
+   "time": "16:30",
+   "url": "https://saltatkakaako.com/event/vein-at-kaka%ca%bbako-booze-bros/2026-11-11/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Christina Sochor",
+   "date": "2026-11-11",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/christina-sochor-blue-note-hawaii-tickets/14305194",
+   "type": "concert"
   }
  ]
 }

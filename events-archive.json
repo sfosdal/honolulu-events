@@ -1255,6 +1255,14 @@
    "type": "community"
   },
   {
+   "venue": "Bishop Museum",
+   "title": "Nānā I Ke Kumu: He Hoʻoilina Ola Ka Hula",
+   "date": "2026-11-07",
+   "time": "17:30",
+   "url": "https://www.bishopmuseum.org/calendar/nana-i-ke-kumu-he-ho%ca%bboilina-ola-ka-hula/",
+   "type": "community"
+  },
+  {
    "venue": "Waikiki Shell",
    "title": "The Green Titles Tour",
    "date": "2026-11-07",
@@ -1494,6 +1502,75 @@
    "time": "18:30:00",
    "url": "https://www.ticketweb.com/event/christina-sochor-blue-note-hawaii-tickets/14305194",
    "type": "concert"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Paʻa: Kanaloa Kānaka i Kanaloa — Ea aʻe ka ʻOhana",
+   "date": "2026-11-12",
+   "time": "08:00",
+   "url": "https://www.bishopmuseum.org/calendar/pa%ca%bba-kanaloa-kanaka-i-kanaloa-ea-a%ca%bbe-ka-%ca%bbohana/",
+   "type": "community"
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "Junior Recital – Leimomi Nahulu",
+   "date": "2026-11-12",
+   "time": "13:30",
+   "url": "https://manoa.hawaii.edu/music/event/junior-recital-leimomi-nahulu/",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Drowned Land",
+   "date": "2026-11-12",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/drowned-land-723n",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Highway Inn: Live Music Thursdays",
+   "date": "2026-11-12",
+   "time": "17:30",
+   "url": "https://saltatkakaako.com/event/highway-inn-live-music-thursdays/2026-11-12/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Paʻa: Kanaloa Kānaka i Kanaloa — Ea aʻe ka ʻOhana",
+   "date": "2026-11-12",
+   "time": "18:00",
+   "url": "https://www.bishopmuseum.org/calendar/pa%ca%bba-kanaloa-kanaka-i-kanaloa-ea-a%ca%bbe-ka-%ca%bbohana/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "DeRay Davis",
+   "date": "2026-11-12",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925733",
+   "type": "arts"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Womens Volleyball vs. Air Force Academy Falcons Womens Volleyball",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "DeRay Davis",
+   "date": "2026-11-12",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925753",
+   "type": "arts"
   }
  ]
 }

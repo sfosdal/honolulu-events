@@ -1571,6 +1571,129 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925753",
    "type": "arts"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "zamna after party",
+   "date": "2026-11-13",
+   "time": "00:00",
+   "url": "https://hbsocialclub.com/event/zamna-after-party/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Market Expo",
+   "date": "2026-11-13",
+   "time": "10:00",
+   "url": "https://blaisdellcenter.com/event/hawaii-market-expo-2/2026-11-13/"
+  },
+  {
+   "venue": "ʻIolani Palace",
+   "title": "Royal Hawaiian Band Performance",
+   "date": "2026-11-13",
+   "time": "12:00",
+   "url": "https://www.iolanipalace.org/event/royal-hawaiian-band-performance-231/?event_date=2026-11-13",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "American Doctor",
+   "date": "2026-11-13",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/american-doctor-yhmc",
+   "type": "arts"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "50 Years of Aloha ʻĀina Concert & Celebration: Laʻa, Maʻa, Paʻa!",
+   "date": "2026-11-13",
+   "time": "17:00",
+   "url": "https://www.bishopmuseum.org/calendar/50-years-of-aloha-%ca%bbaina-concert-festival-la%ca%bba-ma%ca%bba-pa%ca%bba/",
+   "type": "community"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Live Sessions @ Hula’s w/ Kalau",
+   "date": "2026-11-13",
+   "time": "18:00",
+   "url": "https://hulas.com/event/live-music-w-kalau/2026-11-13/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "DeRay Davis",
+   "date": "2026-11-13",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925763",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "La vita va così (Life Is Life)",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://honolulumuseum.org/events/la-vita-va-cosi-life-is-life-5q2d",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "“Manoa” SS27 Fashion Show",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://blaisdellcenter.com/event/manoa-ss27-fashion-show/"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Womens Volleyball vs. Air Force Academy Falcons Womens Volleyball",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "Junior Recital – Amy Taba",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://manoa.hawaii.edu/music/event/junior-recital-amy-taba/",
+   "type": "arts"
+  },
+  {
+   "venue": "Palikū Theatre",
+   "title": "Everyday Heroes of Hawaiʻi",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://windward.hawaii.edu/events/everyday-heroes-of-hawai%ca%bbi/",
+   "type": "arts"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "Alborosie & Shengen Clan",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://hbsocialclub.com/event/alborosie-shengen-clan/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Republik",
+   "title": "Ocean Alley",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "http://jointherepublik.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "DeRay Davis",
+   "date": "2026-11-13",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925743",
+   "type": "arts"
   }
  ]
 }

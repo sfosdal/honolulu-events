@@ -1694,6 +1694,140 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/deray-davis-blue-note-hawaii-tickets/14925743",
    "type": "arts"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Create ʻAPUtunity Experience",
+   "date": "2026-11-14",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/create-%ca%bbaputunity-experience/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Kanikapila ma Kaiwiʻula",
+   "date": "2026-11-14",
+   "time": "10:00",
+   "url": "https://www.bishopmuseum.org/calendar/kanikapila-ma-kaiwi%ca%bbula/",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "It’s Giving…Market by Honolulu Maker’s Market",
+   "date": "2026-11-14",
+   "time": "10:00",
+   "url": "https://saltatkakaako.com/event/its-givingmarket-by-honolulu-makers-market/",
+   "type": "community"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Market Expo",
+   "date": "2026-11-14",
+   "time": "10:00",
+   "url": "https://blaisdellcenter.com/event/hawaii-market-expo-2/2026-11-14/"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Filipiñana",
+   "date": "2026-11-14",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/filipinana-jgvq",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "The Collection in Context: Spirituality & Symbolism",
+   "date": "2026-11-14",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/the-collection-in-context-spirituality-and-symbolism-trgv",
+   "type": "arts"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Hula’s Catamaran",
+   "date": "2026-11-14",
+   "time": "14:00",
+   "url": "https://hulas.com/event/hulas-catamaran-57/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ching Athletics Complex",
+   "title": "Hawaii Rainbow Warriors Football vs. North Dakota State Bison Football",
+   "date": "2026-11-14",
+   "time": "18:00:00",
+   "url": "https://hawaiiathletics.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CW"
+    ]
+   }
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Sabrina Claudio",
+   "date": "2026-11-14",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345524",
+   "type": "concert"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Gioia mia (Sweetheart)",
+   "date": "2026-11-14",
+   "time": "19:00",
+   "url": "https://honolulumuseum.org/events/gioia-mia-sweetheart-ntj5",
+   "type": "arts"
+  },
+  {
+   "venue": "Palikū Theatre",
+   "title": "Everyday Heroes of Hawaiʻi",
+   "date": "2026-11-14",
+   "time": "19:30",
+   "url": "https://windward.hawaii.edu/events/everyday-heroes-of-hawai%ca%bbi/",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "Daniel Caesar – Son of Spergy Tour",
+   "date": "2026-11-14",
+   "time": "20:00",
+   "url": "https://blaisdellcenter.com/event/daniel-caesar-son-of-spergy-tour/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "Daniel Caesar - Son Of Spergy Tour",
+   "date": "2026-11-14",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-11-03T22:11:58.432Z"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "tvboo",
+   "date": "2026-11-14",
+   "time": "21:00",
+   "url": "https://hbsocialclub.com/event/tvboo/",
+   "type": "concert"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Decades: 80s Dance Party",
+   "date": "2026-11-14",
+   "time": "21:00",
+   "url": "https://hulas.com/event/decades-party/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Sabrina Claudio",
+   "date": "2026-11-14",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345554",
+   "type": "concert"
   }
  ]
 }

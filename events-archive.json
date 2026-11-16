@@ -1828,6 +1828,111 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345554",
    "type": "concert"
+  },
+  {
+   "venue": "Waimea Valley",
+   "title": "King Kalākaua</span> Birthday",
+   "date": "2026-11-15",
+   "time": "09:00",
+   "url": "https://www.waimeavalley.net/events/king-kalakaua",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Community Sunday: Bayanihan: A Celebration of Philippine Culture in Hawaiʻi — Presented by Hawaiian Airlines® Bank of Hawaii World Elite Mastercard®",
+   "date": "2026-11-15",
+   "time": "10:00",
+   "url": "https://honolulumuseum.org/events/community-sunday-bayanihan-a-celebration-of-philippine-culture-in-hawai-i-xd8k",
+   "type": "arts"
+  },
+  {
+   "venue": "Blaisdell Exhibition Hall",
+   "title": "Hawaii Market Expo",
+   "date": "2026-11-15",
+   "time": "10:00",
+   "url": "https://blaisdellcenter.com/event/hawaii-market-expo-2/2026-11-15/"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Community Sunday: CAFF for Kids 2026",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/community-sunday-caff-for-kids-2026-sywc",
+   "type": "arts"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "A Universal Affair with Friends: A Drag Show Presented by Aiko",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "url": "https://hulas.com/event/a-universal-affair/",
+   "type": "concert"
+  },
+  {
+   "venue": "Palikū Theatre",
+   "title": "Everyday Heroes of Hawaiʻi",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "url": "https://windward.hawaii.edu/events/everyday-heroes-of-hawai%ca%bbi/",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Samadhi Arts Presents: Ma Ka Hana Ka ʻIke",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "url": "https://saltatkakaako.com/event/samadhi-arts-presents-ma-ka-hana-ka-%ca%bbike/",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Nonostante (Feeling Better)",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "url": "https://honolulumuseum.org/events/nonostante-feeling-better-fcyf",
+   "type": "arts"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "Surfers Healing",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "url": "https://hbsocialclub.com/event/surfers-healing/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Sabrina Claudio",
+   "date": "2026-11-15",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345534",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "Daniel Caesar – Son of Spergy Tour",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://blaisdellcenter.com/event/daniel-caesar-son-of-spergy-tour-2/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blaisdell Arena",
+   "title": "Daniel Caesar - Son Of Spergy Tour",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-11-03T22:11:58.432Z"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Sabrina Claudio",
+   "date": "2026-11-15",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345544",
+   "type": "concert"
   }
  ]
 }

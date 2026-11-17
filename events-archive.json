@@ -1933,6 +1933,28 @@
    "time": "21:00:00",
    "url": "https://www.ticketweb.com/event/sabrina-claudio-blue-note-hawaii-tickets/14345544",
    "type": "concert"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Open Mic Night",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "url": "https://hulas.com/event/open-mic-night-2/2026-11-16/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Beleza",
+   "date": "2026-11-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/beleza-blue-note-hawaii-tickets/14390294",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:12:22.649Z",
+    "from": 22.48
+   }
   }
  ]
 }

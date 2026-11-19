@@ -2001,6 +2001,52 @@
    "time": "20:00:00",
    "url": "http://jointherepublik.com",
    "type": "concert"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "vein at KAKAʻAKO: Booze & Bros.",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "url": "https://saltatkakaako.com/event/vein-at-kaka%ca%bbako-booze-bros/2026-11-18/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Navigating by the Stars",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "url": "https://www.bishopmuseum.org/calendar/navigating-by-the-stars-2027/",
+   "type": "community"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "rock n blues w/ live mic",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "url": "https://hbsocialclub.com/event/rock-n-blues-w-live-mic/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "KOTA The Friend",
+   "date": "2026-11-18",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/kota-the-friend-blue-note-hawaii-tickets/14276774",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:12:52.052Z",
+    "from": 40.69
+   }
+  },
+  {
+   "venue": "Kumu Kahua Theatre",
+   "title": "Breaking News: Beyond The Headlines",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "url": "https://www.eventbrite.com/e/breaking-news-beyond-the-headlines-tickets-2003326376119",
+   "type": "arts"
   }
  ]
 }

@@ -2047,6 +2047,66 @@
    "time": "19:30",
    "url": "https://www.eventbrite.com/e/breaking-news-beyond-the-headlines-tickets-2003326376119",
    "type": "arts"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Keiki Hula Lessons",
+   "date": "2026-11-19",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/keiki-hula-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Drowned Land",
+   "date": "2026-11-19",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/drowned-land-723n",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Highway Inn: Live Music Thursdays",
+   "date": "2026-11-19",
+   "time": "17:30",
+   "url": "https://saltatkakaako.com/event/highway-inn-live-music-thursdays/2026-11-19/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Luenell",
+   "date": "2026-11-19",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/luenell-blue-note-hawaii-tickets/14301424",
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:13:13.971Z",
+    "from": 46.08
+   }
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "honolulu poetry slam",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "url": "https://hbsocialclub.com/event/honolulu-poetry-slam/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Luenell",
+   "date": "2026-11-19",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/luenell-blue-note-hawaii-tickets/14301434",
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:13:15.892Z",
+    "from": 46.08
+   }
   }
  ]
 }

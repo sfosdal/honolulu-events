@@ -2107,6 +2107,138 @@
     "checked": "2026-11-16T23:13:15.892Z",
     "from": 46.08
    }
+  },
+  {
+   "venue": "Hawaii Theatre Center",
+   "title": "Lucy Darling 2026",
+   "date": "2026-11-20",
+   "time": "",
+   "url": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000C3OtJMAV",
+   "type": "arts"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "CreativeMornings Honolulu: “Devotion” with Kevin Lyons",
+   "date": "2026-11-20",
+   "time": "08:00",
+   "url": "https://saltatkakaako.com/event/creativemornings-honolulu-devotion-with-kevin-lyons/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "ʻUkulele Guild of Hawaiʻi Workshops",
+   "date": "2026-11-20",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/%ca%bbukulele-guild-of-hawai%ca%bbi-workshops/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Lei Making Lessons",
+   "date": "2026-11-20",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/lei-making-lesson-july",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Filipiñana",
+   "date": "2026-11-20",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/filipinana-jgvq",
+   "type": "arts"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Member Preview of UNDER/GROUND",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "url": "https://www.bishopmuseum.org/calendar/member-preview-of-under-ground/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "HŌLEI Music Performance",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/holei-trio-july",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Steel guitar PERFORMANCE",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/steel-gutiar-performance-57bxl",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "Grand Opening: <em>UNDER/GROUND</em>",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "url": "https://www.bishopmuseum.org/calendar/under-ground-opening-celebration/",
+   "type": "community"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Live Sessions @ Hula’s w/ Kalau",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "url": "https://hulas.com/event/live-music-w-kalau/2026-11-20/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Kalapana",
+   "date": "2026-11-20",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/kalapana-blue-note-hawaii-tickets/14317944",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:13:38.741Z",
+    "from": 46.08
+   }
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Sustainability Film Series: The Hidden Lives of Whales",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://honolulumuseum.org/events/sustainability-film-series-the-hidden-lives-of-whales-xd13",
+   "type": "arts"
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "INTERWOVEN",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "url": "https://manoa.hawaii.edu/music/event/interwoven/",
+   "type": "arts"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "Rave Mania Hawaii",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "url": "https://hbsocialclub.com/event/rave-mania-hawaii/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Kalapana",
+   "date": "2026-11-20",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/kalapana-blue-note-hawaii-tickets/14317954",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:13:40.661Z",
+    "from": 46.08
+   }
   }
  ]
 }

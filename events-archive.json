@@ -2239,6 +2239,130 @@
     "checked": "2026-11-16T23:13:40.661Z",
     "from": 46.08
    }
+  },
+  {
+   "venue": "Hawaii Theatre Center",
+   "title": "Hawaii’s Favorite Comedians – A Celebration Of Laugh Tour",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000AbMzyMAF",
+   "type": "arts"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "26th Annual ʻUkulele Guild of Hawaiʻi Exhibition",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "url": "https://www.bishopmuseum.org/calendar/26th-annual-%ca%bbukulele-guild-of-hawai%ca%bbi-exhibition/",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Bloom Garden & Art Festival by Honolulu Maker’s Market",
+   "date": "2026-11-21",
+   "time": "10:00",
+   "url": "https://saltatkakaako.com/event/bloom-garden-art-festival-by-honolulu-makers-market-4/",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "The Collection in Context: Spirituality & Symbolism",
+   "date": "2026-11-21",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/the-collection-in-context-spirituality-and-symbolism-trgv",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "American Doctor",
+   "date": "2026-11-21",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/american-doctor-yhmc",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Art Can Be Bigger Than Yourself — B+Hari Signature Neuroarts Gallery Experiences",
+   "date": "2026-11-21",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/art-can-be-bigger-than-yourself-xdc4",
+   "type": "arts"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Hula Kahiko Performance",
+   "date": "2026-11-21",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/hula-kahiko-july",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Save Ferris",
+   "date": "2026-11-21",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/save-ferris-blue-note-hawaii-tickets/15020453",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:23:36.666Z",
+    "from": 46.08
+   }
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Chamber Music Hawaii: Twin Horns",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "url": "https://honolulumuseum.org/events/chamber-music-hawaii-twin-horns-rs38",
+   "type": "arts"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "Twin Horns",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "url": "https://www.chambermusichawaii.org/concert/twin-horns/",
+   "type": "arts"
+  },
+  {
+   "venue": "Orvis Auditorium",
+   "title": "UH Javanese Gamelan Ensemble Concert",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "url": "https://manoa.hawaii.edu/music/event/uh-javanese-gamelan-ensemble-concert/",
+   "type": "arts"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "SOULGASM 19th Anniversary Celebration",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "url": "https://hbsocialclub.com/event/soulgasm-19th-anniversary-celebration/",
+   "type": "concert"
+  },
+  {
+   "venue": "Hula's Bar & Lei Stand",
+   "title": "Locker Room: STUFFED",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "url": "https://hulas.com/event/locker-room/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Save Ferris",
+   "date": "2026-11-21",
+   "time": "21:00:00",
+   "url": "https://www.ticketweb.com/event/save-ferris-blue-note-hawaii-tickets/15020463",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:23:38.598Z",
+    "from": 46.08
+   }
   }
  ]
 }

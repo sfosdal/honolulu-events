@@ -2363,6 +2363,46 @@
     "checked": "2026-11-21T00:23:38.598Z",
     "from": 46.08
    }
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Bloom Garden & Art Festival by Honolulu Maker’s Market",
+   "date": "2026-11-22",
+   "time": "10:00",
+   "url": "https://saltatkakaako.com/event/bloom-garden-art-festival-by-honolulu-makers-market-5/",
+   "type": "community"
+  },
+  {
+   "venue": "Honolulu Museum of Art",
+   "title": "CAFF presents: Juliet & the King",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "url": "https://honolulumuseum.org/events/caff-presents-juliet-and-the-king-18zf",
+   "type": "arts"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Bishop Museum",
+   "title": "<em>T. REX:</em> Extended Cut Screenings",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "url": "https://www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "The Elevations featuring Jesse Wagner of the Aggrolites",
+   "date": "2026-11-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketweb.com/event/the-elevations-featuring-jesse-wagner-blue-note-hawaii-tickets/14089564",
+   "type": "concert"
   }
  ]
 }

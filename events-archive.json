@@ -2480,13 +2480,7 @@
    "date": "2026-11-24",
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/eric-hutchinson-blue-note-hawaii-tickets/14888823",
-   "type": "concert",
-   "tickets": {
-    "box": null,
-    "resale": 0,
-    "checked": "2026-11-21T00:24:22.605Z",
-    "from": 34.28
-   }
+   "type": "concert"
   }
  ]
 }

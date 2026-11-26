@@ -2481,6 +2481,120 @@
    "time": "19:00:00",
    "url": "https://www.ticketweb.com/event/eric-hutchinson-blue-note-hawaii-tickets/14888823",
    "type": "concert"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Exclusive Holiday Gift",
+   "date": "2026-11-25",
+   "time": "11:00",
+   "url": "https://www.royalhawaiiancenter.com/events/holiday-gift-with-purchase-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Lauhala Weaving Lessons",
+   "date": "2026-11-25",
+   "time": "11:30",
+   "url": "https://www.royalhawaiiancenter.com/events/lauhala-weaving-lessons-july",
+   "type": "community"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "vein at KAKAʻAKO: Booze & Bros.",
+   "date": "2026-11-25",
+   "time": "16:30",
+   "url": "https://saltatkakaako.com/event/vein-at-kaka%ca%bbako-booze-bros/2026-11-25/",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Holiday KICK-OFF Show & Aloha Santa Arrival",
+   "date": "2026-11-25",
+   "time": "17:00",
+   "url": "https://www.royalhawaiiancenter.com/events/holiday-kickoff-show-aloha-santa-arrival-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "Weekly Holiday Show & Complimentary Photos With Santa",
+   "date": "2026-11-25",
+   "time": "17:00",
+   "url": "https://www.royalhawaiiancenter.com/events/weekly-holiday-performance-and-photos-with-santa-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "ANA ‘Aha Mele Evening & Moonlight Concert",
+   "date": "2026-11-25",
+   "time": "17:00:00",
+   "url": "https://www.ticketweb.com/event/ana-aha-mele-evening-blue-note-hawaii-tickets/14250594",
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-25T00:08:55.484Z",
+    "from": 140.72
+   }
+  },
+  {
+   "venue": "Royal Hawaiian Center",
+   "title": "PUʻUHONUA Trio Performance",
+   "date": "2026-11-25",
+   "time": "17:30",
+   "url": "https://www.royalhawaiiancenter.com/events/puuhonua-performances-july",
+   "type": "community"
+  },
+  {
+   "venue": "Stan Sheriff Center",
+   "title": "Hawaii Rainbow Warriors Mens Basketball vs. Incarnate Word Cardinals Mens Basketball",
+   "date": "2026-11-25",
+   "time": "19:00:00",
+   "url": "https://hawaiiathletics.com/calendar",
+   "type": "sports",
+   "dateTbd": true,
+   "watch": {
+    "tv": [
+     "MW+"
+    ]
+   }
+  },
+  {
+   "venue": "Blaisdell Concert Hall",
+   "title": "Book of Mormon",
+   "date": "2026-11-25",
+   "time": "19:30",
+   "url": "https://broadwayinhawaii.com",
+   "type": "arts"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "ANA ‘Aha Mele Evening & Moonlight Concert",
+   "date": "2026-11-25",
+   "time": "20:30:00",
+   "url": "https://www.ticketweb.com/event/ana-aha-mele-evening-blue-note-hawaii-tickets/14250604",
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-25T00:08:57.681Z",
+    "from": 140.72
+   }
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "No Pressure: Conducta & DJ Swisha",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "url": "https://hbsocialclub.com/event/no-pressure-conducta-dj-swisha/",
+   "type": "concert"
+  },
+  {
+   "venue": "HB Social Club",
+   "title": "byran gee",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "url": "https://hbsocialclub.com/event/byran-gee/",
+   "type": "concert"
   }
  ]
 }

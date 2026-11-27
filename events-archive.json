@@ -2595,6 +2595,28 @@
    "time": "21:00",
    "url": "https://hbsocialclub.com/event/byran-gee/",
    "type": "concert"
+  },
+  {
+   "venue": "SALT at Our Kakaʻako",
+   "title": "Highway Inn: Live Music Thursdays",
+   "date": "2026-11-26",
+   "time": "17:30",
+   "url": "https://saltatkakaako.com/event/highway-inn-live-music-thursdays/2026-11-26/",
+   "type": "community"
+  },
+  {
+   "venue": "Blue Note Hawaii",
+   "title": "Chip Chantry's Thanksgiving In Paradise",
+   "date": "2026-11-26",
+   "time": "18:30:00",
+   "url": "https://www.ticketweb.com/event/chip-chantrys-thanksgiving-in-paradise-blue-note-hawaii-tickets/14238494",
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-26T16:07:05.667Z",
+    "from": 46.08
+   }
   }
  ]
 }
